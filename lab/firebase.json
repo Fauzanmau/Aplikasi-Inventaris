@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "aplikasi-inventaris-cb59a",
+          "appId": "1:38405725917:android:3aded3063f7a0febc10534",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "aplikasi-inventaris-cb59a",
+          "configurations": {
+            "android": "1:38405725917:android:3aded3063f7a0febc10534",
+            "ios": "1:38405725917:ios:a07eabde207d95b7c10534",
+            "macos": "1:38405725917:ios:a07eabde207d95b7c10534",
+            "web": "1:38405725917:web:459b6d5230b6e7b9c10534",
+            "windows": "1:38405725917:web:79cc828f256b85f4c10534"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

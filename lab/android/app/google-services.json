@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "38405725917",
+    "project_id": "aplikasi-inventaris-cb59a",
+    "storage_bucket": "aplikasi-inventaris-cb59a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38405725917:android:3aded3063f7a0febc10534",
+        "android_client_info": {
+          "package_name": "com.example.lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1PBB34472KKT1BimOBSEkbZxPyquH-mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
